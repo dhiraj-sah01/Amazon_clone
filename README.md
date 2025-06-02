@@ -17,7 +17,7 @@ Welcome to my **first HTML and CSS project**! This is a basic **Amazon homepage 
 *Add screenshots of your project here if available.*
 
 ## 📁 Folder Structure
-Amazon_clone/
+amazon-clone/
 ├── index.html
 ├── style.css
 └── /images

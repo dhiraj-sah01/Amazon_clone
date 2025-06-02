@@ -194,3 +194,79 @@
     margin: 0px 0px 0px 5px;
     width: 38px;
 }
+
+/* ------------homepage image------------ */
+.main_content{
+    display: block;
+}
+.main_content_advertisement{
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1.0) 50%, transparent 100%);; 
+    z-index: 2;
+}
+
+/* -------------main content box--------- */
+.content{
+    display: flex;
+    justify-content: space-evenly;
+}
+    /* ------------content1-------------- */
+    .content1, .content2, .content3, .content4{
+        width: 285px;
+        height: 370px;
+        background-color: white;
+        position: relative;
+        top: 250px;
+        left: 30px;
+        padding: 0px 15px 0px 15px;
+        z-index: 3;
+    }
+    #main_content1_text, #main_content2_text, #main_content3_text, #main_content4_text{
+        font-size: 21px;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .content1_pic, .content2_pic, .content3_pic, .content4_pic{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .main_content1_pict1-3, .main_content2_pict1-3, .main_content3_pict1-3,.main_content4_pict1-3{
+        margin: 0;
+        padding-top: 10pxp;
+
+    }
+    #main_content1_pic1, #main_content1_pic3, #main_content2_pic1, #main_content2_pic3,
+    #main_content3_pic1, #main_content3_pic3, #main_content4_pic1, #main_content4_pic3{
+        width: 138px;
+        height: 115px;
+        object-fit: cover;
+        padding: 0px 10px 0px 0px;
+    }
+    .content1_text_pic1, .content1_text_pic3, .content2_text_pic1, .content2_text_pic3, .content3_text_pic1, .content3_text_pic3, .content4_text_pic1, .content4_text_pic3{
+        color: rgb(44, 46, 46);
+        font-size: 12px;
+    }
+
+    .main_content1_pict2-4, .main_content2_pict2-4, .main_content3_pict2-4, .main_content4_pict2-4{
+        margin: 0;
+        padding-top: 10pxp;
+
+    }
+    #main_content1_pic2, #main_content1_pic4, #main_content2_pic2, #main_content2_pic4, #main_content3_pic2, #main_content3_pic4,
+    #main_content4_pic2, #main_content4_pic4{
+        width: 120px;
+        height: 115px;
+        object-fit: cover;
+    }
+    .content1_text_pic2, .content1_text_pic4, .content2_text_pic2, .content2_text_pic4, .content3_text_pic2, .content3_text_pic4, .content4_text_pic2, .content4_text_pic4{
+        color: rgb(44, 46, 46);
+        font-size: 12px;
+    }
+    .content1_link, .content2_link, .content3_link, .content4_link{
+        text-decoration: none;
+        font-size: 12px;
+    }
+
+    

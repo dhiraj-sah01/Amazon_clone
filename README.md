@@ -16,14 +16,6 @@ Welcome to my **first HTML and CSS project**! This is a basic **Amazon homepage 
 ## 📸 Screenshots
 *Add screenshots of your project here if available.*
 
-## 📁 Folder Structure
-''' bash
-amazon-clone/
-├── index.html
-├── style.css
-└── /images
-'''
-
 ## 📚 What I Learned
 - Semantic HTML structure
 - CSS styling with classes and IDs

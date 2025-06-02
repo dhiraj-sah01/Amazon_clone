@@ -17,10 +17,12 @@ Welcome to my **first HTML and CSS project**! This is a basic **Amazon homepage 
 *Add screenshots of your project here if available.*
 
 ## 📁 Folder Structure
+''''bash
 amazon-clone/
 ├── index.html
 ├── style.css
 └── /images
+'''
 
 ## 📚 What I Learned
 - Semantic HTML structure

@@ -197,7 +197,7 @@
 
 /* ------------homepage image------------ */
 .main_content{
-    display: block;
+    display: inline-block;
 }
 .main_content_advertisement{
     position: absolute;
@@ -210,10 +210,67 @@
 /* -------------main content box--------- */
 .content{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
     /* ------------content1-------------- */
-    .content1, .content2, .content3, .content4{
+    .content1{
+        width: 285px;
+        height: 370px;
+        background-color: white;
+        position: relative;
+        top: 250px;
+        left: 30px;
+        padding: 0px 15px 0px 15px;
+        margin-right: 20px;
+        z-index: 3;
+    }
+    #main_content1_text{
+        font-size: 21px;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .content1_pic{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .main_content1_pict1-3{
+        margin: 0;
+        padding-top: 10pxp;
+
+    }
+    #main_content1_pic1, #main_content1_pic3, #main_content2_pic1, #main_content2_pic3{
+        width: 138px;
+        height: 115px;
+        object-fit: cover;
+        padding: 0px 10px 0px 0px;
+    }
+    .content1_text_pic1, .content1_text_pic3{
+        color: rgb(44, 46, 46);
+        font-size: 12px;
+    }
+
+    .main_content1_pict2-4{
+        margin: 0;
+        padding-top: 10pxp;
+
+    }
+    #main_content1_pic2, #main_content1_pic4, #main_content2_pic2, #main_content2_pic4{
+        width: 120px;
+        height: 115px;
+        object-fit: cover;
+    }
+    .content1_text_pic2, .content1_text_pic4{
+        color: rgb(44, 46, 46);
+        font-size: 12px;
+    }
+    .content1_link{
+        text-decoration: none;
+        font-size: 12px;
+    }
+
+    /* ----------------content3--------------------
+    */
+    .content3{
         width: 285px;
         height: 370px;
         background-color: white;
@@ -222,51 +279,98 @@
         left: 30px;
         padding: 0px 15px 0px 15px;
         z-index: 3;
+        margin-right: 20px;
     }
-    #main_content1_text, #main_content2_text, #main_content3_text, #main_content4_text{
+    #main_content3_text{
         font-size: 21px;
         padding: 20px 0px 0px 0px;
     }
 
-    .content1_pic, .content2_pic, .content3_pic, .content4_pic{
+    .content3_pic{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
     }
-    .main_content1_pict1-3, .main_content2_pict1-3, .main_content3_pict1-3,.main_content4_pict1-3{
+    .main_content3_pict1-3{
         margin: 0;
         padding-top: 10pxp;
 
     }
-    #main_content1_pic1, #main_content1_pic3, #main_content2_pic1, #main_content2_pic3,
-    #main_content3_pic1, #main_content3_pic3, #main_content4_pic1, #main_content4_pic3{
-        width: 138px;
-        height: 115px;
+    #main_content3_pic1{
+        width: 270px;
+        height: 290px;
         object-fit: cover;
-        padding: 0px 10px 0px 0px;
+        padding: 5px 10px 0px 8px;
     }
-    .content1_text_pic1, .content1_text_pic3, .content2_text_pic1, .content2_text_pic3, .content3_text_pic1, .content3_text_pic3, .content4_text_pic1, .content4_text_pic3{
+    .content3_text_pic1{
         color: rgb(44, 46, 46);
         font-size: 12px;
     }
-
-    .main_content1_pict2-4, .main_content2_pict2-4, .main_content3_pict2-4, .main_content4_pict2-4{
-        margin: 0;
-        padding-top: 10pxp;
-
-    }
-    #main_content1_pic2, #main_content1_pic4, #main_content2_pic2, #main_content2_pic4, #main_content3_pic2, #main_content3_pic4,
-    #main_content4_pic2, #main_content4_pic4{
-        width: 120px;
-        height: 115px;
-        object-fit: cover;
-    }
-    .content1_text_pic2, .content1_text_pic4, .content2_text_pic2, .content2_text_pic4, .content3_text_pic2, .content3_text_pic4, .content4_text_pic2, .content4_text_pic4{
-        color: rgb(44, 46, 46);
-        font-size: 12px;
-    }
-    .content1_link, .content2_link, .content3_link, .content4_link{
+    .content3_link{
         text-decoration: none;
         font-size: 12px;
     }
+
+        /* ----------------content4--------------------
+    */
+    .content4{
+        width: 285px;
+        height: 370px;
+        background-color: white;
+        position: relative;
+        top: 250px;
+        left: 30px;
+        padding: 0px 15px 0px 15px;
+        z-index: 3;
+        
+    }
+    #main_content4_text{
+        font-size: 21px;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .content4_pic{
+        justify-content: center;
+    }
+    .main_content4_pict1-3{
+        margin: 0;
+        padding-top: 10pxp;
+
+    }
+    #main_content4_pic1{
+        width: 270px;
+        height: 150px;
+        object-fit: cover;
+        padding: 5px 10px 0px 0px;
+    }
+    .content4_text_pic{
+        color: rgb(44, 46, 46);
+        font-size: 12px;
+    }
+    .main_content4_pic2-3-4{
+        display: flex;
+    }
+    #content4_pic{
+        width: 88px;
+        height: 75px;
+        padding-right: 5px;
+    }
+
+    .content4_link{
+        text-decoration: none;
+        font-size: 12px;
+    }
+
+/* ---------------------footer------------------ */
+.footer_main{
+    background-color: black;
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+}
+main{
+    position: relative;
+}
 
     
